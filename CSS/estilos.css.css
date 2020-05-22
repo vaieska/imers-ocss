@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://i.imgur.com/7CHTikL.png");
+    background-size: 500px;
+    font-family: times new roman;
+  }
+  
+  .menu {background-color: #c8a2c8;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: black;
+  }
+  
+  a:hover {text-decoration: underline;
+    text-decoration-color: white;
+  }
+  
+  .menu ul {
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  .site-title { 
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
